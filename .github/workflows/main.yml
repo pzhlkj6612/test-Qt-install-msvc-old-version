@@ -22,8 +22,8 @@ jobs:
     
     strategy:
       matrix:
-        qt_ver: [5.14.1]
-        qt_arch: [win32_msvc2017, win64_msvc2015_64, win64_msvc2017_64]
+        qt_ver: [5.9.0]
+        qt_arch: [win32_msvc2015, win64_msvc2013_64, win64_msvc2015_64, win64_msvc2017_64]
         qt_target: [desktop]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
